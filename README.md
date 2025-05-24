@@ -171,7 +171,7 @@ results = predict_lc50('molecules.csv', 'predictions.csv')
 
 ## Model Architecture
 
-The MultiModalRegressor combines several components[7]:
+The MultiModalRegressor combines several components:
 
 1. **Graph Encoder**: Processes molecular graphs with distance-aware attention
 2. **Sequence Encoder**: Transformer for SMILES sequences  
