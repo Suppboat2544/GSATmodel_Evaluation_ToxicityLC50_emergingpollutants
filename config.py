@@ -43,8 +43,8 @@ TRAINING_CONFIG = {
 
 # Conformer generation
 CONFORMER_CONFIG = {
-    'max_conf': 3,
-    'max_attempts': 10
+    'max_conf': 10,
+    'max_attempts': 500
 }
 
 # Featurizer configurations
