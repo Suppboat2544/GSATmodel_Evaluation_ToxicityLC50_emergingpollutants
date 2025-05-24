@@ -1,14 +1,14 @@
 # GSATmodel - Molecular Toxicity Prediction
 
-A multimodal deep learning framework for predicting molecular toxicity (LC50 values) using graph neural networks and transformer architectures. This model combines 3D molecular conformations, chemical scaffolds, and SMILES sequences for robust toxicity prediction[1][7].
+A multimodal deep learning framework for predicting molecular toxicity (LC50 values) using graph neural networks and transformer architectures. This model combines 3D molecular conformations, chemical scaffolds, and SMILES sequences for robust toxicity prediction.
 
 ## Project Overview
 
 The GSATmodel (Graph-Sequence Attention Transformer) integrates multiple molecular representations:
-- **3D Conformer Graphs**: Multiple 3D conformations with distance-aware attention[7]
-- **Scaffold Graphs**: Murcko scaffolds for structural motifs[2]
-- **SMILES Sequences**: Linear molecular representations[7]
-- **Molecular Descriptors**: Physicochemical properties[2]
+- **3D Conformer Graphs**: Multiple 3D conformations with distance-aware attention
+- **Scaffold Graphs**: Murcko scaffolds for structural motifs
+- **SMILES Sequences**: Linear molecular representations
+- **Molecular Descriptors**: Physicochemical properties
 
 ## Data Structure
 
@@ -181,15 +181,15 @@ The MultiModalRegressor combines several components[7]:
 
 ## Key Features
 
-- **Conformer Ensemble**: Uses multiple 3D conformations per molecule[1]
-- **Scaffold Integration**: Incorporates Murcko scaffold information[2]
-- **Distance-Aware Attention**: 3D geometric information in attention mechanism[7]
-- **Multimodal Fusion**: Combines graph and sequence representations[7]
-- **Robust Training**: Early stopping, gradient clipping, SWA[6]
+- **Conformer Ensemble**: Uses multiple 3D conformations per molecule
+- **Scaffold Integration**: Incorporates Murcko scaffold information
+- **Distance-Aware Attention**: 3D geometric information in attention mechanism
+- **Multimodal Fusion**: Combines graph and sequence representations
+- **Robust Training**: Early stopping, gradient clipping, SWA
 
 ## Performance Metrics
 
-The model tracks several metrics during training[6]:
+The model tracks several metrics during training:
 - **MSE**: Mean Squared Error
 - **MAE**: Mean Absolute Error  
 - **R²**: Coefficient of determination
