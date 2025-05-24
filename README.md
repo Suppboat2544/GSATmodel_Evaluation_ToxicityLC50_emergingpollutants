@@ -97,3 +97,6 @@ results = predict_lc50('sample_molecules.csv', 'sample_predictions.csv')
 # Display results
 print("\nPrediction Results:")
 print(results[['Name', 'SMILES', 'Predicted_LC50']].to_string(index=False))
+
+
+This project was under constructed by Mr.Supaporn Klabklaydee and Mr.Nopphakorn Subsa-saard under the Fujii laboratory (Assoc.Prof.Manabu Fujii) 
