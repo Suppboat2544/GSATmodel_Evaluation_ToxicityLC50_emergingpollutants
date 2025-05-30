@@ -1,0 +1,29 @@
+EXECUTIVE SUMMARY: Multi-Step Reaction Chain Analysis
+============================================================
+Analysis Date: 2025-05-30 14:23:41
+
+KEY FINDINGS:
+--------------------
+• Total reaction chains analyzed: 243
+• Total compound pathways: 1192
+• Detoxification dominant: 28.4% of pathways
+• Toxification pathways: 65.3% of pathways
+• Average cumulative effect: -0.3514
+• Strongest detoxification: +5.7020
+• Strongest toxification: -8.7104
+
+TOP 5 DETOXIFICATION CHAINS:
+-----------------------------------
+1. primary Alcohol -----> Aldehyde → primary Alcohol -----> Aldehyde → primary Alcohol -----> Aldehyde → primary Alcohol -----> Aldehyde → primary Alcohol -----> Aldehyde (avg: +5.702)
+2. 3-Hydroxy-3-alkylketone -----> 2 Ketones → N-substituted Urea derivative -----> Urea derivative + Aldehyde or Ketone → primary Alcohol -----> Aldehyde → primary Alcohol -----> Aldehyde → primary Alcohol -----> Aldehyde (avg: +4.037)
+3. organoHalide -----> RH → vic-Dihydroxypyridine -----> intradiol ring cleavage → vic-Dihydroxypyridine -----> intradiol ring cleavage (avg: +3.410)
+4. 3-Hydroxy-3-alkylketone -----> 2 Ketones → secondary Alcohol -----> Ketone → secondary Alcohol -----> Ketone → secondary Alcohol -----> Ketone → secondary Alcohol -----> Ketone (avg: +3.177)
+5. secondary Alcohol -----> Ketone → secondary Alcohol -----> Ketone → secondary Alcohol -----> Ketone → secondary Alcohol -----> Ketone (avg: +3.087)
+
+TOP 5 TOXIFICATION CHAINS:
+-----------------------------------
+1. 2-Oxopent-4-enoate derivative -----> Pyruvate derivative + Acetaldehyde or Ketone → 2-Oxopent-4-enoate derivative -----> Pyruvate derivative + Acetaldehyde or Ketone → 2-Oxopent-4-enoate derivative -----> Pyruvate derivative + Acetaldehyde or Ketone → 2-Oxopent-4-enoate derivative -----> Pyruvate derivative + Acetaldehyde or Ketone → 2-Ketocarboxylate -----> Carboxylate + CO2 (avg: -8.710)
+2. 2-Oxopent-4-enoate derivative -----> Pyruvate derivative + Acetaldehyde or Ketone → 2-Oxopent-4-enoate derivative -----> Pyruvate derivative + Acetaldehyde or Ketone → 2-Ketocarboxylate -----> Carboxylate + CO2 → [mono-, di-, or tri-halo]cis,cis-Muconate derivative -----> Succinate → 2-Ketocarboxylate -----> Carboxylate + CO2 (avg: -7.690)
+3. 2-Oxopent-4-enoate derivative -----> Pyruvate derivative + Acetaldehyde or Ketone → 2-Oxopent-4-enoate derivative -----> Pyruvate derivative + Acetaldehyde or Ketone → 2-Oxopent-4-enoate derivative -----> Pyruvate derivative + Acetaldehyde or Ketone → 2-Oxopent-4-enoate derivative -----> Pyruvate derivative + Acetaldehyde or Ketone → 2-Oxopent-4-enoate derivative -----> Pyruvate derivative + Acetaldehyde or Ketone (avg: -6.825)
+4. [mono-, di-, or tri-halo]cis,cis-Muconate derivative -----> Succinate → [mono-, di-, or tri-halo]cis,cis-Muconate derivative -----> Succinate → Fatty acid (n) w C3 -keto -----> Fatty acid (n-2) → Aldehyde -----> Carboxylate → [mono-, di-, or tri-halo]cis,cis-Muconate derivative -----> Succinate (avg: -6.305)
+5. Methylammonium derivative -----> Trimethylamine + Aldehyde or Ketone → 2-Oxopent-4-enoate derivative -----> Pyruvate derivative + Acetaldehyde or Ketone → 2- or 3- substituted Carboxylate -----> RH + CO2 → 2- or 3- substituted Carboxylate -----> RH + CO2 → 2- or 3- substituted Carboxylate -----> RH + CO2 (avg: -6.015)
