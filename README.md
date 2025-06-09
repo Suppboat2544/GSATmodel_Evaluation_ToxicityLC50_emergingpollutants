@@ -214,8 +214,6 @@ sample_molecules.to_csv('sample_molecules.csv', index=False)
 results = predict_lc50('sample_molecules.csv', 'sample_predictions.csv')
 print(results[['Name', 'SMILES', 'Predicted_LC50']])
 ```
-=== FINAL TEST RESULTS ===
-MSE: 0.1485, MAE: 0.2653, R²: 0.9077
 
 ## Troubleshooting
 
