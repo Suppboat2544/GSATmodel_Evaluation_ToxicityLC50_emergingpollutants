@@ -214,6 +214,8 @@ sample_molecules.to_csv('sample_molecules.csv', index=False)
 results = predict_lc50('sample_molecules.csv', 'sample_predictions.csv')
 print(results[['Name', 'SMILES', 'Predicted_LC50']])
 ```
+Results of 12 pollutants Analysis
+https://drive.google.com/drive/folders/1R4L8AYhj4Aly35dp8yd_VO-bO_HOjVuf?usp=sharing
 
 ## Troubleshooting
 
