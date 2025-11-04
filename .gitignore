@@ -1,0 +1,106 @@
+# Conda Environment - DO NOT UPLOAD TO GITHUB
+gsat_env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch model files (large binaries)
+*.pt
+*.pth
+best_*.pt
+swa_*.pt
+*.npz
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+*.out
+
+# Analysis output files (large datasets)
+analysis_output/
+analysis_results/
+*_results/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.xlsx
+*.csv
+Full_data/
+checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# OS generated files
+__MACOSX/
+
+# Large analysis files
+comprehensive_*
+*_analysis/
+clean_*/
+individual_*/
+*.json
+
+# Backup files
+*_backup*
+*_old*
+*.backup

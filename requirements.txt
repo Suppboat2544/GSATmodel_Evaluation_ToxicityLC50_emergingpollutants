@@ -1,0 +1,24 @@
+# Requirements for Biotransformation Toxicity Analysis Framework
+# parallel_clean_plots.py and related analysis scripts
+
+# Core Data Science
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Molecular Property Analysis (NEW - Required for Task 2.1)
+rdkit>=2021.09.1
+
+# Multiprocessing (standard library - no install needed)
+# multiprocessing
+
+# Statistics
+# scipy already included above for pearsonr, stats
+
+# Optional but recommended
+# jupyter>=1.0.0  # For notebook analysis
+# tqdm>=4.62.0     # For progress bars
