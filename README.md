@@ -3,6 +3,8 @@
 
 A comprehensive evaluation framework for Graph-Sequence Attention Transformer (GSAT) models in predicting aquatic toxicity (LC50 values) of emerging pollutants. This repository contains the complete analysis pipeline, GUI application, and research findings for molecular toxicity prediction using graph neural networks.
 
+Cited Paper : Multigenerational Toxicity Prediction Using Graph Neural Networks and Biotransformation Analysis https://pubs.acs.org/doi/10.1021/acsestwater.5c00828 ACS EST Water 2026, 6, 2, 697–708
+
 ## 🔬 Research Overview
 
 This project evaluates the performance of GSAT models for predicting LC50 toxicity values of emerging pollutants in aquatic environments. The study compares graph-based neural networks with traditional machine learning approaches and provides comprehensive analysis of model performance, biotransformation pathways, and uncertainty quantification.
