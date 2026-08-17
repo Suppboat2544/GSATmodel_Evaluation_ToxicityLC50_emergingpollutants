@@ -1,5 +1,5 @@
 # GSAT Model Evaluation for Toxicity LC50 Prediction of Emerging Pollutants 
-# Under peer reviewed
+# Peer reviewed
 
 A comprehensive evaluation framework for Graph-Sequence Attention Transformer (GSAT) models in predicting aquatic toxicity (LC50 values) of emerging pollutants. This repository contains the complete analysis pipeline, GUI application, and research findings for molecular toxicity prediction using graph neural networks.
 
